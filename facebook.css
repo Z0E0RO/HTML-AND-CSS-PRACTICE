@@ -1,0 +1,56 @@
+h1{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    width: 100cm;
+    margin-top: 15%;
+}
+input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 8cm;
+    font-size: medium;
+    border: 1px solid #ccc;
+    margin: 8px;
+    
+}
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 8cm;
+    font-size: large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 8px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.box{
+    display: inline-table;
+    padding: 10px;
+    margin: 5px;
+}
+.text{
+    margin-left: 12%;
+}
+#login{
+    background-color: blue;
+}
+#account{
+    background-color: green;
+}
+.para{
+    text-align: center;
+}
+input[type=text]:focus{
+    border : 1px solid blue;
+}
+.form{
+    position: absolute;
+    left: 60%;
+    bottom: 12%;
+    border: 2px solid gray;
+    border-radius: 15px;
+    height: 410px;
+}
